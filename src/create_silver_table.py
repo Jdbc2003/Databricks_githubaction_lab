@@ -14,3 +14,5 @@ CREATE OR REPLACE TABLE {my_catalog}.default.health_silver_demo_08 AS
 SELECT * EXCEPT (file_name, file_modification_time, load_date)
 FROM {my_catalog}.default.health_bronze_demo_08
 ''')
+
+print("cambio realizado")
